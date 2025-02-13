@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainheader{
+    margin: 0;
+    padding: 0;
+    background: fixed;
+    background-color: black;
+    opacity: 80%;
+    display: flow-root;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transform: scale(1);
+    position: static;
+    height: 110px;
+}
+
+.mainheader h1{
+    opacity: 100%;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.mainheader nav{
+    opacity: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    gap: 64px;
+    justify-content: center;
+}
+
+/*The link to the About page*/
+.mainheader a  {
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 20px;
+    transform: none;
+}
+.mainheader a:hover {
+    color: cyan;
+    transform: scale(1.1);
+}
+
+.Founder img{
+    width: 350px;
+    float: left;
+    overflow: hidden;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.Founder div article {
+    font-weight: 500;
+    font-size: large;
+    text-align: justify;
+    margin: 30px;
+}

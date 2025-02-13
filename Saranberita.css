@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainheader{
+    margin: 0;
+    padding: 0;
+    background: fixed;
+    background-color: black;
+    opacity: 80%;
+    display: flow-root;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transform: scale(1);
+    position: static;
+    height: 110px;
+}
+
+.mainheader h1{
+    opacity: 100%;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.mainheader nav{
+    opacity: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    gap: 64px;
+    justify-content: center;
+}
+
+/*The link to the About page*/
+.mainheader a  {
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 20px;
+    transform: none;
+}
+.mainheader a:hover {
+    color: cyan;
+    transform: scale(1.1);
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}

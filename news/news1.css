@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainheader{
+    margin: 0;
+    padding: 0;
+    background: fixed;
+    background-color: black;
+    opacity: 80%;
+    display: flow-root;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transform: scale(1);
+    position: static;
+    height: 110px;
+}
+
+.mainheader h1{
+    opacity: 100%;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.mainheader nav{
+    opacity: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    gap: 64px;
+    justify-content: center;
+}
+/*The link to the About page*/
+.mainheader a  {
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 20px;
+    transform: none;
+}
+.mainheader a:hover {
+    color: cyan;
+    transform: scale(1.1);
+}
+
+/*Main Text*/
+.MainText {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: justify;
+    margin: 100px;
+    height: 100vh;
+    border: 50px;
+    display: flex;
+    width: fit-content;
+}
+.MainText footer {
+    font-size: 12px;
+    margin-bottom: 70px;
+    width: 100%;
+    height: auto;
+}
+.MainText article {
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19px;
+}
+.MainText img {
+    width: 100%;
+    height: auto;
+    transform: none;
+}
