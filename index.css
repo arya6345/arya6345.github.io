@@ -1,20 +1,22 @@
 body {
     margin: 0;
     padding: 0;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
 }
 
 .mainheader{
     margin: 0;
     padding: 0;
-    background: fixed;
+    background: none;
     background-color: black;
     opacity: 80%;
-    display: flow-root;
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    transform: scale(1);
-    position: static;
-    height: 110px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
 }
 
 .mainheader h1{
@@ -25,23 +27,29 @@ body {
 
 .mainheader nav{
     opacity: 100%;
-    text-align: center;
+    text-align: justify;
     display: flex;
-    align-items: center;
     overflow: hidden;
-    gap: 64px;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 /*The link to the About page*/
 .mainheader a  {
     color: antiquewhite;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     transform: none;
 }
 .mainheader a:hover {
     color: cyan;
     transform: scale(1.1);
+}
+
+.MainText {
+    margin-top: 30px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
 }
 
 .MainText a {
@@ -51,24 +59,14 @@ body {
     font-size: 14px;
     text-align: justify;
     display: flex;
-    margin-top: 30px;
-    padding: 20px;
+    flex-direction: column;
 }
 
 .MainText a:hover {
     text-decoration: underline;
-    color: black;
-    font-weight: 500;
-    font-size: 14px;
-    text-align: justify;
-    display: flex;
-    margin-top: 30px;
-    overflow: hidden;
-
 }
 
 .MainText a img {
-    width: 450px;
+    width: auto;
     height: 300px;
-    float: left;
 }
