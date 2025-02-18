@@ -6,15 +6,14 @@ body {
 .mainheader{
     margin: 0;
     padding: 0;
-    background: fixed;
+    background: none;
     background-color: black;
     opacity: 80%;
-    display: flow-root;
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    transform: scale(1);
-    position: static;
-    height: 110px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
 }
 
 .mainheader h1{
@@ -25,19 +24,16 @@ body {
 
 .mainheader nav{
     opacity: 100%;
-    text-align: center;
+    text-align: justify;
     display: flex;
-    align-items: center;
     overflow: hidden;
-    gap: 64px;
-    justify-content: center;
+    justify-content: space-evenly;
 }
-
 /*The link to the About page*/
 .mainheader a  {
     color: antiquewhite;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     transform: none;
 }
 .mainheader a:hover {
