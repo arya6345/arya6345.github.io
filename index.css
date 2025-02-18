@@ -50,6 +50,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 100px;
+    align-items: center;
 }
 
 .MainText a {
@@ -68,5 +69,5 @@ body {
 
 .MainText a img {
     width: auto;
-    height: 300px;
+    height: auto;
 }
